@@ -1,8 +1,0 @@
-2020-09-05 06:33:26 [ip] ::1 [text] CLIENTE: Se solicita pedido
-2020-09-05 06:33:26 [ip] ::1 [text] RESTAURANTE: recibir pedido del cliente
-2020-09-05 06:33:26 [ip] ::1 [text] RESTAURANTE: Avisar al repartidor que ya está listo el pedido
-2020-09-05 06:33:26 [ip] ::1 [text] REPARTIDOR:Marcar como entregado
-2020-09-05 06:33:29 [ip] ::1 [text] CLIENTE: Solicitar estado del pedido al restaurante
-2020-09-05 06:33:29 [ip] ::1 [text] RESTAURANTE: informar pedido del cliente
-2020-09-05 06:33:32 [ip] ::1 [text] CLIENTE: Solicitar estado del pedido al repartidor
-2020-09-05 06:33:32 [ip] ::1 [text] REPARTIDOR: Informar estado del pedido al cliente
