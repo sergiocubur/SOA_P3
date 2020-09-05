@@ -1,0 +1,8 @@
+2020-09-05 06:33:26 [ip] ::1 [text] ORQUESTADOR:::::CLIENTE: Se solicita pedido
+2020-09-05 06:33:26 [ip] ::1 [text] ORQUESTADOR:::::RESTAURANTE: recibir pedido del cliente
+2020-09-05 06:33:26 [ip] ::1 [text] ORQUESTADOR:::::RESTAURANTE: Avisar al repartidor que ya está listo el pedido
+2020-09-05 06:33:26 [ip] ::1 [text] ORQUESTADOR:::::REPARTIDOR:Marcar como entregado
+2020-09-05 06:33:29 [ip] ::1 [text] ORQUESTADOR:::::CLIENTE: Solicitar estado del pedido al restaurante
+2020-09-05 06:33:29 [ip] ::1 [text] ORQUESTADOR:::::RESTAURANTE: informar pedido del cliente
+2020-09-05 06:33:32 [ip] ::1 [text] ORQUESTADOR:::::CLIENTE: Solicitar estado del pedido al repartidor
+2020-09-05 06:33:32 [ip] ::1 [text] ORQUESTADOR:::::REPARTIDOR: Informar estado del pedido al cliente

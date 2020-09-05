@@ -65,22 +65,7 @@ include "Log.class.php";
      return json_encode($data);  
    }  
    
-   private function usuarios() {  
-     if ($_SERVER['REQUEST_METHOD'] != "GET") {  
-       $this->mostrarRespuesta($this->convertirJson($this->devolverError(1)), 405);  
-     }  
-     //$query = $this->_conn->query("SELECT id, nombre, email FROM usuario");  
-     //$filas = $query->fetchAll(PDO::FETCH_ASSOC);  
-     //$num = count($filas);  
-     /*if ($num > 0) {  
-       $respuesta['estado'] = 'correcto';  
-       $respuesta['usuarios'] = $filas;  
-       $this->mostrarRespuesta($this->convertirJson($respuesta), 200);  
-     }*/  
-     $this->mostrarRespuesta($this->convertirJson("Hola"), 200); 
-     $this->mostrarRespuesta($this->devolverError(2), 204);  
-   }  
-  
+    
    private function cliente_solicitar_pedido() {  /* YA */
     if ($_SERVER['REQUEST_METHOD'] != "GET") {  
       $this->mostrarRespuesta($this->convertirJson($this->devolverError(1)), 405);  
@@ -89,6 +74,7 @@ include "Log.class.php";
     $log->insert('CLIENTE: Se solicita pedido', false, true, true);
 
     $this->cliente_recibir_pedido();
+    
 
     $this->mostrarRespuesta($this->convertirJson("Se Solicita pedido"), 200); 
     $this->mostrarRespuesta($this->devolverError(2), 204);  
